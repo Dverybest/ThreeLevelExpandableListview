@@ -15,9 +15,9 @@ import android.widget.ExpandableListView;
 import java.util.ArrayList;
 import java.util.List;
 
-import dverybest.com.customnav.Adapters.ParentLevelAdapter;
-import dverybest.com.customnav.Models.Menu;
-import dverybest.com.customnav.Models.SubMenu;
+import dverybest.com.threelevelexpandablelistview.Adapters.ParentLevelAdapter;
+import dverybest.com.threelevelexpandablelistview.Models.Menu;
+import dverybest.com.threelevelexpandablelistview.Models.SubMenu;
 
 public class MainActivity extends AppCompatActivity {
     ExpandableListView mExpandableListView;
@@ -129,24 +129,7 @@ void Load() {
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(android.view.Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+ 
 
 
 }
