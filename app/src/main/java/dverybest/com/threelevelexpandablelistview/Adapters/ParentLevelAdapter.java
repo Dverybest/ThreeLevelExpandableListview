@@ -14,10 +14,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import dverybest.com.customnav.CustomExpListView;
-import dverybest.com.customnav.Models.Menu;
-import dverybest.com.customnav.Models.SubMenu;
-import dverybest.com.customnav.R;
+import dverybest.com.threelevelexpandablelistview.CustomExpListView;
+import dverybest.com.threelevelexpandablelistview.Models.Menu;
+import dverybest.com.threelevelexpandablelistview.Models.SubMenu;
+import dverybest.com.threelevelexpandablelistview.R;
 
 
 public class ParentLevelAdapter extends BaseExpandableListAdapter {
