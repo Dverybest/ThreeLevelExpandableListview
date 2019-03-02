@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+<include
+    layout="@layout/nav_header_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:id="@+id/ex"
+        android:groupIndicator="@null"
+        android:layout_height="match_parent"/>
+</LinearLayout>
